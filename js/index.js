@@ -61,7 +61,7 @@ function getWeatherIconBackground(iconCode) {
 // Function to fetch weather data from OpenWeatherMap API
 async function getWeather() {
     const apiKey = 'ca17208bfd297c3ca6ecc276b3bc0628'; // Replace with your valid API key
-    const city = "Pitsburg";
+    const city = "Humenne";
 
     try {
         const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`);
